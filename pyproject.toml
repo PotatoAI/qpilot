@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qpilot"
+version = "0.1.0"
+description = ""
+authors = ["Max Gonzih <gonzih@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.24.0"
+torch = "^1.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
